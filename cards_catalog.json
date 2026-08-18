@@ -1,336 +1,336 @@
 [
   {
-    "cardId": "wealthsimple_cash",
+    "id": "wealthsimple_cash",
     "cardName": "Wealthsimple Cash Card",
     "issuer": "Wealthsimple",
-    "baseRewardRate": 0.02,
-    "categoryMultipliers": [
-      { "categoryKey": "other", "effectiveRate": 0.02 }
-    ]
+    "baseRate": 0.02,
+    "categoryRates": {
+      "other": 0.02
+    }
   },
   {
-    "cardId": "amex_cobalt",
+    "id": "amex_cobalt",
     "cardName": "Amex Cobalt",
     "issuer": "Amex",
-    "baseRewardRate": 0.01,
-    "categoryMultipliers": [
-      { "categoryKey": "groceries", "effectiveRate": 0.05 },
-      { "categoryKey": "dining", "effectiveRate": 0.05 },
-      { "categoryKey": "streaming", "effectiveRate": 0.03 },
-      { "categoryKey": "travel", "effectiveRate": 0.02 },
-      { "categoryKey": "gas", "effectiveRate": 0.02 },
-      { "categoryKey": "other", "effectiveRate": 0.01 }
-    ]
+    "baseRate": 0.01,
+    "categoryRates": {
+      "groceries": 0.05,
+      "dining": 0.05,
+      "streaming": 0.03,
+      "travel": 0.02,
+      "gas": 0.02,
+      "other": 0.01
+    }
   },
   {
-    "cardId": "amex_gold_rewards",
+    "id": "amex_gold_rewards",
     "cardName": "Amex Gold Rewards Card",
     "issuer": "Amex",
-    "baseRewardRate": 0.01,
-    "categoryMultipliers": [
-      { "categoryKey": "travel", "effectiveRate": 0.02 },
-      { "categoryKey": "groceries", "effectiveRate": 0.02 },
-      { "categoryKey": "gas", "effectiveRate": 0.02 },
-      { "categoryKey": "drugstores", "effectiveRate": 0.02 },
-      { "categoryKey": "other", "effectiveRate": 0.01 }
-    ]
+    "baseRate": 0.01,
+    "categoryRates": {
+      "travel": 0.02,
+      "groceries": 0.02,
+      "gas": 0.02,
+      "drugstores": 0.02,
+      "other": 0.01
+    }
   },
   {
-    "cardId": "amex_platinum",
+    "id": "amex_platinum",
     "cardName": "The Platinum Card",
     "issuer": "Amex",
-    "baseRewardRate": 0.01,
-    "categoryMultipliers": [
-      { "categoryKey": "dining", "effectiveRate": 0.02 },
-      { "categoryKey": "travel", "effectiveRate": 0.02 },
-      { "categoryKey": "other", "effectiveRate": 0.01 }
-    ]
+    "baseRate": 0.01,
+    "categoryRates": {
+      "dining": 0.02,
+      "travel": 0.02,
+      "other": 0.01
+    }
   },
   {
-    "cardId": "amex_simply_cash",
+    "id": "amex_simply_cash",
     "cardName": "SimplyCash Card from Amex",
     "issuer": "Amex",
-    "baseRewardRate": 0.0125,
-    "categoryMultipliers": [
-      { "categoryKey": "groceries", "effectiveRate": 0.02 },
-      { "categoryKey": "gas", "effectiveRate": 0.02 },
-      { "categoryKey": "other", "effectiveRate": 0.0125 }
-    ]
+    "baseRate": 0.0125,
+    "categoryRates": {
+      "groceries": 0.02,
+      "gas": 0.02,
+      "other": 0.0125
+    }
   },
   {
-    "cardId": "amex_simply_cash_preferred",
+    "id": "amex_simply_cash_preferred",
     "cardName": "SimplyCash Preferred Card from Amex",
     "issuer": "Amex",
-    "baseRewardRate": 0.02,
-    "categoryMultipliers": [
-      { "categoryKey": "groceries", "effectiveRate": 0.04 },
-      { "categoryKey": "gas", "effectiveRate": 0.04 },
-      { "categoryKey": "other", "effectiveRate": 0.02 }
-    ]
+    "baseRate": 0.02,
+    "categoryRates": {
+      "groceries": 0.04,
+      "gas": 0.04,
+      "other": 0.02
+    }
   },
   {
-    "cardId": "rbc_ion_plus",
+    "id": "rbc_ion_plus",
     "cardName": "RBC ION+ Visa",
     "issuer": "RBC Royal Bank",
-    "baseRewardRate": 0.01,
-    "categoryMultipliers": [
-      { "categoryKey": "groceries", "effectiveRate": 0.03 },
-      { "categoryKey": "dining", "effectiveRate": 0.03 },
-      { "categoryKey": "gas", "effectiveRate": 0.03 },
-      { "categoryKey": "other", "effectiveRate": 0.01 }
-    ]
+    "baseRate": 0.01,
+    "categoryRates": {
+      "groceries": 0.03,
+      "dining": 0.03,
+      "gas": 0.03,
+      "other": 0.01
+    }
   },
   {
-    "cardId": "rbc_avion_infinite",
+    "id": "rbc_avion_infinite",
     "cardName": "RBC Avion Visa Infinite",
     "issuer": "RBC Royal Bank",
-    "baseRewardRate": 0.01,
-    "categoryMultipliers": [
-      { "categoryKey": "travel", "effectiveRate": 0.0125 },
-      { "categoryKey": "other", "effectiveRate": 0.01 }
-    ]
+    "baseRate": 0.01,
+    "categoryRates": {
+      "travel": 0.0125,
+      "other": 0.01
+    }
   },
   {
-    "cardId": "rbc_avion_privilege",
+    "id": "rbc_avion_privilege",
     "cardName": "RBC Avion Visa Infinite Privilege",
     "issuer": "RBC Royal Bank",
-    "baseRewardRate": 0.0125,
-    "categoryMultipliers": [
-      { "categoryKey": "travel", "effectiveRate": 0.0175 },
-      { "categoryKey": "other", "effectiveRate": 0.0125 }
-    ]
+    "baseRate": 0.0125,
+    "categoryRates": {
+      "travel": 0.0175,
+      "other": 0.0125
+    }
   },
   {
-    "cardId": "rbc_cashback_mastercard",
+    "id": "rbc_cashback_mastercard",
     "cardName": "RBC Cash Back Mastercard",
     "issuer": "RBC Royal Bank",
-    "baseRewardRate": 0.005,
-    "categoryMultipliers": [
-      { "categoryKey": "groceries", "effectiveRate": 0.02 },
-      { "categoryKey": "other", "effectiveRate": 0.005 }
-    ]
+    "baseRate": 0.005,
+    "categoryRates": {
+      "groceries": 0.02,
+      "other": 0.005
+    }
   },
   {
-    "cardId": "rbc_cashback_preferred_we",
+    "id": "rbc_cashback_preferred_we",
     "cardName": "RBC Cash Back Preferred World Elite Mastercard",
     "issuer": "RBC Royal Bank",
-    "baseRewardRate": 0.015,
-    "categoryMultipliers": [
-      { "categoryKey": "other", "effectiveRate": 0.015 }
-    ]
+    "baseRate": 0.015,
+    "categoryRates": {
+      "other": 0.015
+    }
   },
   {
-    "cardId": "cibc_dividend_infinite",
+    "id": "cibc_dividend_infinite",
     "cardName": "CIBC Dividend Visa Infinite",
     "issuer": "CIBC",
-    "baseRewardRate": 0.01,
-    "categoryMultipliers": [
-      { "categoryKey": "groceries", "effectiveRate": 0.04 },
-      { "categoryKey": "gas", "effectiveRate": 0.04 },
-      { "categoryKey": "dining", "effectiveRate": 0.02 },
-      { "categoryKey": "transport", "effectiveRate": 0.02 },
-      { "categoryKey": "other", "effectiveRate": 0.01 }
-    ]
+    "baseRate": 0.01,
+    "categoryRates": {
+      "groceries": 0.04,
+      "gas": 0.04,
+      "dining": 0.02,
+      "transport": 0.02,
+      "other": 0.01
+    }
   },
   {
-    "cardId": "cibc_aventura_infinite",
+    "id": "cibc_aventura_infinite",
     "cardName": "CIBC Aventura Visa Infinite",
     "issuer": "CIBC",
-    "baseRewardRate": 0.01,
-    "categoryMultipliers": [
-      { "categoryKey": "travel", "effectiveRate": 0.0225 },
-      { "categoryKey": "gas", "effectiveRate": 0.015 },
-      { "categoryKey": "groceries", "effectiveRate": 0.015 },
-      { "categoryKey": "other", "effectiveRate": 0.01 }
-    ]
+    "baseRate": 0.01,
+    "categoryRates": {
+      "travel": 0.0225,
+      "gas": 0.015,
+      "groceries": 0.015,
+      "other": 0.01
+    }
   },
   {
-    "cardId": "cibc_aventura_student",
+    "id": "cibc_aventura_student",
     "cardName": "CIBC Aventura Visa Card for Students",
     "issuer": "CIBC",
-    "baseRewardRate": 0.00625,
-    "categoryMultipliers": [
-      { "categoryKey": "travel", "effectiveRate": 0.0125 },
-      { "categoryKey": "gas", "effectiveRate": 0.00938 },
-      { "categoryKey": "groceries", "effectiveRate": 0.00938 },
-      { "categoryKey": "other", "effectiveRate": 0.00625 }
-    ]
+    "baseRate": 0.00625,
+    "categoryRates": {
+      "travel": 0.0125,
+      "gas": 0.00938,
+      "groceries": 0.00938,
+      "other": 0.00625
+    }
   },
   {
-    "cardId": "scotia_gold_amex",
+    "id": "scotia_gold_amex",
     "cardName": "Scotia Gold Amex",
     "issuer": "Scotiabank",
-    "baseRewardRate": 0.01,
-    "categoryMultipliers": [
-      { "categoryKey": "groceries", "effectiveRate": 0.05 },
-      { "categoryKey": "dining", "effectiveRate": 0.05 },
-      { "categoryKey": "entertainment", "effectiveRate": 0.05 },
-      { "categoryKey": "gas", "effectiveRate": 0.03 },
-      { "categoryKey": "transit", "effectiveRate": 0.03 },
-      { "categoryKey": "other", "effectiveRate": 0.01 }
-    ]
+    "baseRate": 0.01,
+    "categoryRates": {
+      "groceries": 0.05,
+      "dining": 0.05,
+      "entertainment": 0.05,
+      "gas": 0.03,
+      "transit": 0.03,
+      "other": 0.01
+    }
   },
   {
-    "cardId": "scotia_passport_infinite",
+    "id": "scotia_passport_infinite",
     "cardName": "Scotia Passport Visa Infinite",
     "issuer": "Scotiabank",
-    "baseRewardRate": 0.01,
-    "categoryMultipliers": [
-      { "categoryKey": "groceries", "effectiveRate": 0.03 },
-      { "categoryKey": "dining", "effectiveRate": 0.03 },
-      { "categoryKey": "entertainment", "effectiveRate": 0.03 },
-      { "categoryKey": "transit", "effectiveRate": 0.03 },
-      { "categoryKey": "other", "effectiveRate": 0.01 }
-    ]
+    "baseRate": 0.01,
+    "categoryRates": {
+      "groceries": 0.03,
+      "dining": 0.03,
+      "entertainment": 0.03,
+      "transit": 0.03,
+      "other": 0.01
+    }
   },
   {
-    "cardId": "scotia_scene_student",
+    "id": "scotia_scene_student",
     "cardName": "Scotiabank Scene+ Visa Card for Students",
     "issuer": "Scotiabank",
-    "baseRewardRate": 0.01,
-    "categoryMultipliers": [
-      { "categoryKey": "groceries", "effectiveRate": 0.02 },
-      { "categoryKey": "entertainment", "effectiveRate": 0.02 },
-      { "categoryKey": "dining", "effectiveRate": 0.02 },
-      { "categoryKey": "other", "effectiveRate": 0.01 }
-    ]
+    "baseRate": 0.01,
+    "categoryRates": {
+      "groceries": 0.02,
+      "entertainment": 0.02,
+      "dining": 0.02,
+      "other": 0.01
+    }
   },
   {
-    "cardId": "bmo_cashback_we",
+    "id": "bmo_cashback_we",
     "cardName": "BMO CashBack World Elite MasterCard",
     "issuer": "BMO",
-    "baseRewardRate": 0.01,
-    "categoryMultipliers": [
-      { "categoryKey": "groceries", "effectiveRate": 0.05 },
-      { "categoryKey": "transit", "effectiveRate": 0.04 },
-      { "categoryKey": "gas", "effectiveRate": 0.03 },
-      { "categoryKey": "other", "effectiveRate": 0.01 }
-    ]
+    "baseRate": 0.01,
+    "categoryRates": {
+      "groceries": 0.05,
+      "transit": 0.04,
+      "gas": 0.03,
+      "other": 0.01
+    }
   },
   {
-    "cardId": "bmo_ascend_we",
+    "id": "bmo_ascend_we",
     "cardName": "BMO Ascend World Elite MasterCard",
     "issuer": "BMO",
-    "baseRewardRate": 0.01,
-    "categoryMultipliers": [
-      { "categoryKey": "travel", "effectiveRate": 0.05 },
-      { "categoryKey": "dining", "effectiveRate": 0.03 },
-      { "categoryKey": "entertainment", "effectiveRate": 0.03 },
-      { "categoryKey": "other", "effectiveRate": 0.01 }
-    ]
+    "baseRate": 0.01,
+    "categoryRates": {
+      "travel": 0.05,
+      "dining": 0.03,
+      "entertainment": 0.03,
+      "other": 0.01
+    }
   },
   {
-    "cardId": "bmo_cashback_student",
+    "id": "bmo_cashback_student",
     "cardName": "BMO CashBack Mastercard for Students",
     "issuer": "BMO",
-    "baseRewardRate": 0.005,
-    "categoryMultipliers": [
-      { "categoryKey": "groceries", "effectiveRate": 0.03 },
-      { "categoryKey": "recurring", "effectiveRate": 0.01 },
-      { "categoryKey": "other", "effectiveRate": 0.005 }
-    ]
+    "baseRate": 0.005,
+    "categoryRates": {
+      "groceries": 0.03,
+      "recurring": 0.01,
+      "other": 0.005
+    }
   },
   {
-    "cardId": "td_cashback_infinite",
+    "id": "td_cashback_infinite",
     "cardName": "TD Cash Back Visa Infinite",
     "issuer": "TD Bank",
-    "baseRewardRate": 0.01,
-    "categoryMultipliers": [
-      { "categoryKey": "groceries", "effectiveRate": 0.03 },
-      { "categoryKey": "gas", "effectiveRate": 0.03 },
-      { "categoryKey": "recurring", "effectiveRate": 0.03 },
-      { "categoryKey": "other", "effectiveRate": 0.01 }
-    ]
+    "baseRate": 0.01,
+    "categoryRates": {
+      "groceries": 0.03,
+      "gas": 0.03,
+      "recurring": 0.03,
+      "other": 0.01
+    }
   },
   {
-    "cardId": "td_first_class_travel",
+    "id": "td_first_class_travel",
     "cardName": "TD First Class Travel Visa Infinite",
     "issuer": "TD Bank",
-    "baseRewardRate": 0.02,
-    "categoryMultipliers": [
-      { "categoryKey": "travel", "effectiveRate": 0.08 },
-      { "categoryKey": "groceries", "effectiveRate": 0.03 },
-      { "categoryKey": "dining", "effectiveRate": 0.03 },
-      { "categoryKey": "other", "effectiveRate": 0.02 }
-    ]
+    "baseRate": 0.02,
+    "categoryRates": {
+      "travel": 0.08,
+      "groceries": 0.03,
+      "dining": 0.03,
+      "other": 0.02
+    }
   },
   {
-    "cardId": "td_rewards_student",
+    "id": "td_rewards_student",
     "cardName": "TD Rewards Visa Card for Students",
     "issuer": "TD Bank",
-    "baseRewardRate": 0.005,
-    "categoryMultipliers": [
-      { "categoryKey": "groceries", "effectiveRate": 0.015 },
-      { "categoryKey": "dining", "effectiveRate": 0.015 },
-      { "categoryKey": "recurring", "effectiveRate": 0.015 },
-      { "categoryKey": "other", "effectiveRate": 0.005 }
-    ]
+    "baseRate": 0.005,
+    "categoryRates": {
+      "groceries": 0.015,
+      "dining": 0.015,
+      "recurring": 0.015,
+      "other": 0.005
+    }
   },
   {
-    "cardId": "mbna_rewards_we",
+    "id": "mbna_rewards_we",
     "cardName": "MBNA Rewards World Elite MasterCard",
     "issuer": "MBNA",
-    "baseRewardRate": 0.01,
-    "categoryMultipliers": [
-      { "categoryKey": "groceries", "effectiveRate": 0.05 },
-      { "categoryKey": "dining", "effectiveRate": 0.05 },
-      { "categoryKey": "digital_media", "effectiveRate": 0.05 },
-      { "categoryKey": "other", "effectiveRate": 0.01 }
-    ]
+    "baseRate": 0.01,
+    "categoryRates": {
+      "groceries": 0.05,
+      "dining": 0.05,
+      "digital_media": 0.05,
+      "other": 0.01
+    }
   },
   {
-    "cardId": "rogers_red_mastercard",
+    "id": "rogers_red_mastercard",
     "cardName": "Rogers Red Mastercard",
     "issuer": "Rogers Bank",
-    "baseRewardRate": 0.02,
-    "categoryMultipliers": [
-      { "categoryKey": "rogers_redemption_value", "effectiveRate": 0.03 },
-      { "categoryKey": "other", "effectiveRate": 0.02 }
-    ]
+    "baseRate": 0.02,
+    "categoryRates": {
+      "rogers_redemption_value": 0.03,
+      "other": 0.02
+    }
   },
   {
-    "cardId": "rogers_red_we",
+    "id": "rogers_red_we",
     "cardName": "Rogers Red World Elite Mastercard",
     "issuer": "Rogers Bank",
-    "baseRewardRate": 0.02,
-    "categoryMultipliers": [
-      { "categoryKey": "us_purchases", "effectiveRate": 0.03 },
-      { "categoryKey": "rogers_redemption_value", "effectiveRate": 0.03 },
-      { "categoryKey": "other", "effectiveRate": 0.02 }
-    ]
+    "baseRate": 0.02,
+    "categoryRates": {
+      "us_purchases": 0.03,
+      "rogers_redemption_value": 0.03,
+      "other": 0.02
+    }
   },
   {
-    "cardId": "simplii_cashback",
+    "id": "simplii_cashback",
     "cardName": "Simplii Cash Back Visa",
     "issuer": "Simplii Financial",
-    "baseRewardRate": 0.005,
-    "categoryMultipliers": [
-      { "categoryKey": "dining", "effectiveRate": 0.04 },
-      { "categoryKey": "groceries", "effectiveRate": 0.015 },
-      { "categoryKey": "gas", "effectiveRate": 0.015 },
-      { "categoryKey": "other", "effectiveRate": 0.005 }
-    ]
+    "baseRate": 0.005,
+    "categoryRates": {
+      "dining": 0.04,
+      "groceries": 0.015,
+      "gas": 0.015,
+      "other": 0.005
+    }
   },
   {
-    "cardId": "tangerine_money_back",
+    "id": "tangerine_money_back",
     "cardName": "Tangerine Money-Back Credit Card",
     "issuer": "Tangerine",
-    "baseRewardRate": 0.005,
-    "categoryMultipliers": [
-      { "categoryKey": "groceries", "effectiveRate": 0.02 },
-      { "categoryKey": "gas", "effectiveRate": 0.02 },
-      { "categoryKey": "recurring", "effectiveRate": 0.02 },
-      { "categoryKey": "other", "effectiveRate": 0.005 }
-    ]
+    "baseRate": 0.005,
+    "categoryRates": {
+      "groceries": 0.02,
+      "gas": 0.02,
+      "recurring": 0.02,
+      "other": 0.005
+    }
   },
   {
-    "cardId": "pc_financial_mastercard",
+    "id": "pc_financial_mastercard",
     "cardName": "PC Financial Mastercard",
     "issuer": "PC Financial",
-    "baseRewardRate": 0.01,
-    "categoryMultipliers": [
-      { "categoryKey": "groceries", "effectiveRate": 0.025 },
-      { "categoryKey": "other", "effectiveRate": 0.01 }
-    ]
+    "baseRate": 0.01,
+    "categoryRates": {
+      "groceries": 0.025,
+      "other": 0.01
+    }
   }
 ]
