@@ -4,61 +4,68 @@
     "cardName": "Wealthsimple Cash Card",
     "issuer": "Wealthsimple",
     "baseRewardRate": 0.02,
-    "categoryMultipliers": []
+    "categoryMultipliers": [
+      { "categoryKey": "other", "effectiveRate": 0.02 }
+    ]
   },
   {
     "cardId": "amex_cobalt",
-    "cardName": "American Express Cobalt",
-    "issuer": "American Express",
+    "cardName": "Amex Cobalt",
+    "issuer": "Amex",
     "baseRewardRate": 0.01,
     "categoryMultipliers": [
       { "categoryKey": "groceries", "effectiveRate": 0.05 },
       { "categoryKey": "dining", "effectiveRate": 0.05 },
       { "categoryKey": "streaming", "effectiveRate": 0.03 },
       { "categoryKey": "travel", "effectiveRate": 0.02 },
-      { "categoryKey": "gas", "effectiveRate": 0.02 }
+      { "categoryKey": "gas", "effectiveRate": 0.02 },
+      { "categoryKey": "other", "effectiveRate": 0.01 }
     ]
   },
   {
     "cardId": "amex_gold_rewards",
-    "cardName": "American Express Gold Rewards Card",
-    "issuer": "American Express",
+    "cardName": "Amex Gold Rewards Card",
+    "issuer": "Amex",
     "baseRewardRate": 0.01,
     "categoryMultipliers": [
       { "categoryKey": "travel", "effectiveRate": 0.02 },
       { "categoryKey": "groceries", "effectiveRate": 0.02 },
       { "categoryKey": "gas", "effectiveRate": 0.02 },
-      { "categoryKey": "drugstores", "effectiveRate": 0.02 }
+      { "categoryKey": "drugstores", "effectiveRate": 0.02 },
+      { "categoryKey": "other", "effectiveRate": 0.01 }
     ]
   },
   {
     "cardId": "amex_platinum",
     "cardName": "The Platinum Card",
-    "issuer": "American Express",
+    "issuer": "Amex",
     "baseRewardRate": 0.01,
     "categoryMultipliers": [
       { "categoryKey": "dining", "effectiveRate": 0.02 },
-      { "categoryKey": "travel", "effectiveRate": 0.02 }
+      { "categoryKey": "travel", "effectiveRate": 0.02 },
+      { "categoryKey": "other", "effectiveRate": 0.01 }
     ]
   },
   {
     "cardId": "amex_simply_cash",
-    "cardName": "SimplyCash Card from American Express",
-    "issuer": "American Express",
+    "cardName": "SimplyCash Card from Amex",
+    "issuer": "Amex",
     "baseRewardRate": 0.0125,
     "categoryMultipliers": [
       { "categoryKey": "groceries", "effectiveRate": 0.02 },
-      { "categoryKey": "gas", "effectiveRate": 0.02 }
+      { "categoryKey": "gas", "effectiveRate": 0.02 },
+      { "categoryKey": "other", "effectiveRate": 0.0125 }
     ]
   },
   {
     "cardId": "amex_simply_cash_preferred",
-    "cardName": "SimplyCash Preferred Card from American Express",
-    "issuer": "American Express",
+    "cardName": "SimplyCash Preferred Card from Amex",
+    "issuer": "Amex",
     "baseRewardRate": 0.02,
     "categoryMultipliers": [
       { "categoryKey": "groceries", "effectiveRate": 0.04 },
-      { "categoryKey": "gas", "effectiveRate": 0.04 }
+      { "categoryKey": "gas", "effectiveRate": 0.04 },
+      { "categoryKey": "other", "effectiveRate": 0.02 }
     ]
   },
   {
@@ -69,7 +76,8 @@
     "categoryMultipliers": [
       { "categoryKey": "groceries", "effectiveRate": 0.03 },
       { "categoryKey": "dining", "effectiveRate": 0.03 },
-      { "categoryKey": "gas", "effectiveRate": 0.03 }
+      { "categoryKey": "gas", "effectiveRate": 0.03 },
+      { "categoryKey": "other", "effectiveRate": 0.01 }
     ]
   },
   {
@@ -78,7 +86,8 @@
     "issuer": "RBC Royal Bank",
     "baseRewardRate": 0.01,
     "categoryMultipliers": [
-      { "categoryKey": "travel", "effectiveRate": 0.0125 }
+      { "categoryKey": "travel", "effectiveRate": 0.0125 },
+      { "categoryKey": "other", "effectiveRate": 0.01 }
     ]
   },
   {
@@ -87,7 +96,8 @@
     "issuer": "RBC Royal Bank",
     "baseRewardRate": 0.0125,
     "categoryMultipliers": [
-      { "categoryKey": "travel", "effectiveRate": 0.0175 }
+      { "categoryKey": "travel", "effectiveRate": 0.0175 },
+      { "categoryKey": "other", "effectiveRate": 0.0125 }
     ]
   },
   {
@@ -96,7 +106,8 @@
     "issuer": "RBC Royal Bank",
     "baseRewardRate": 0.005,
     "categoryMultipliers": [
-      { "categoryKey": "groceries", "effectiveRate": 0.02 }
+      { "categoryKey": "groceries", "effectiveRate": 0.02 },
+      { "categoryKey": "other", "effectiveRate": 0.005 }
     ]
   },
   {
@@ -104,7 +115,9 @@
     "cardName": "RBC Cash Back Preferred World Elite Mastercard",
     "issuer": "RBC Royal Bank",
     "baseRewardRate": 0.015,
-    "categoryMultipliers": []
+    "categoryMultipliers": [
+      { "categoryKey": "other", "effectiveRate": 0.015 }
+    ]
   },
   {
     "cardId": "cibc_dividend_infinite",
@@ -115,7 +128,8 @@
       { "categoryKey": "groceries", "effectiveRate": 0.04 },
       { "categoryKey": "gas", "effectiveRate": 0.04 },
       { "categoryKey": "dining", "effectiveRate": 0.02 },
-      { "categoryKey": "transport", "effectiveRate": 0.02 }
+      { "categoryKey": "transport", "effectiveRate": 0.02 },
+      { "categoryKey": "other", "effectiveRate": 0.01 }
     ]
   },
   {
@@ -126,7 +140,8 @@
     "categoryMultipliers": [
       { "categoryKey": "travel", "effectiveRate": 0.0225 },
       { "categoryKey": "gas", "effectiveRate": 0.015 },
-      { "categoryKey": "groceries", "effectiveRate": 0.015 }
+      { "categoryKey": "groceries", "effectiveRate": 0.015 },
+      { "categoryKey": "other", "effectiveRate": 0.01 }
     ]
   },
   {
@@ -137,12 +152,13 @@
     "categoryMultipliers": [
       { "categoryKey": "travel", "effectiveRate": 0.0125 },
       { "categoryKey": "gas", "effectiveRate": 0.00938 },
-      { "categoryKey": "groceries", "effectiveRate": 0.00938 }
+      { "categoryKey": "groceries", "effectiveRate": 0.00938 },
+      { "categoryKey": "other", "effectiveRate": 0.00625 }
     ]
   },
   {
     "cardId": "scotia_gold_amex",
-    "cardName": "Scotia Gold American Express",
+    "cardName": "Scotia Gold Amex",
     "issuer": "Scotiabank",
     "baseRewardRate": 0.01,
     "categoryMultipliers": [
@@ -150,7 +166,8 @@
       { "categoryKey": "dining", "effectiveRate": 0.05 },
       { "categoryKey": "entertainment", "effectiveRate": 0.05 },
       { "categoryKey": "gas", "effectiveRate": 0.03 },
-      { "categoryKey": "transit", "effectiveRate": 0.03 }
+      { "categoryKey": "transit", "effectiveRate": 0.03 },
+      { "categoryKey": "other", "effectiveRate": 0.01 }
     ]
   },
   {
@@ -162,7 +179,8 @@
       { "categoryKey": "groceries", "effectiveRate": 0.03 },
       { "categoryKey": "dining", "effectiveRate": 0.03 },
       { "categoryKey": "entertainment", "effectiveRate": 0.03 },
-      { "categoryKey": "transit", "effectiveRate": 0.03 }
+      { "categoryKey": "transit", "effectiveRate": 0.03 },
+      { "categoryKey": "other", "effectiveRate": 0.01 }
     ]
   },
   {
@@ -173,7 +191,8 @@
     "categoryMultipliers": [
       { "categoryKey": "groceries", "effectiveRate": 0.02 },
       { "categoryKey": "entertainment", "effectiveRate": 0.02 },
-      { "categoryKey": "dining", "effectiveRate": 0.02 }
+      { "categoryKey": "dining", "effectiveRate": 0.02 },
+      { "categoryKey": "other", "effectiveRate": 0.01 }
     ]
   },
   {
@@ -184,7 +203,8 @@
     "categoryMultipliers": [
       { "categoryKey": "groceries", "effectiveRate": 0.05 },
       { "categoryKey": "transit", "effectiveRate": 0.04 },
-      { "categoryKey": "gas", "effectiveRate": 0.03 }
+      { "categoryKey": "gas", "effectiveRate": 0.03 },
+      { "categoryKey": "other", "effectiveRate": 0.01 }
     ]
   },
   {
@@ -195,7 +215,8 @@
     "categoryMultipliers": [
       { "categoryKey": "travel", "effectiveRate": 0.05 },
       { "categoryKey": "dining", "effectiveRate": 0.03 },
-      { "categoryKey": "entertainment", "effectiveRate": 0.03 }
+      { "categoryKey": "entertainment", "effectiveRate": 0.03 },
+      { "categoryKey": "other", "effectiveRate": 0.01 }
     ]
   },
   {
@@ -205,7 +226,8 @@
     "baseRewardRate": 0.005,
     "categoryMultipliers": [
       { "categoryKey": "groceries", "effectiveRate": 0.03 },
-      { "categoryKey": "recurring", "effectiveRate": 0.01 }
+      { "categoryKey": "recurring", "effectiveRate": 0.01 },
+      { "categoryKey": "other", "effectiveRate": 0.005 }
     ]
   },
   {
@@ -216,7 +238,8 @@
     "categoryMultipliers": [
       { "categoryKey": "groceries", "effectiveRate": 0.03 },
       { "categoryKey": "gas", "effectiveRate": 0.03 },
-      { "categoryKey": "recurring", "effectiveRate": 0.03 }
+      { "categoryKey": "recurring", "effectiveRate": 0.03 },
+      { "categoryKey": "other", "effectiveRate": 0.01 }
     ]
   },
   {
@@ -227,7 +250,8 @@
     "categoryMultipliers": [
       { "categoryKey": "travel", "effectiveRate": 0.08 },
       { "categoryKey": "groceries", "effectiveRate": 0.03 },
-      { "categoryKey": "dining", "effectiveRate": 0.03 }
+      { "categoryKey": "dining", "effectiveRate": 0.03 },
+      { "categoryKey": "other", "effectiveRate": 0.02 }
     ]
   },
   {
@@ -238,7 +262,8 @@
     "categoryMultipliers": [
       { "categoryKey": "groceries", "effectiveRate": 0.015 },
       { "categoryKey": "dining", "effectiveRate": 0.015 },
-      { "categoryKey": "recurring", "effectiveRate": 0.015 }
+      { "categoryKey": "recurring", "effectiveRate": 0.015 },
+      { "categoryKey": "other", "effectiveRate": 0.005 }
     ]
   },
   {
@@ -249,7 +274,8 @@
     "categoryMultipliers": [
       { "categoryKey": "groceries", "effectiveRate": 0.05 },
       { "categoryKey": "dining", "effectiveRate": 0.05 },
-      { "categoryKey": "digital_media", "effectiveRate": 0.05 }
+      { "categoryKey": "digital_media", "effectiveRate": 0.05 },
+      { "categoryKey": "other", "effectiveRate": 0.01 }
     ]
   },
   {
@@ -258,7 +284,8 @@
     "issuer": "Rogers Bank",
     "baseRewardRate": 0.02,
     "categoryMultipliers": [
-      { "categoryKey": "rogers_redemption_value", "effectiveRate": 0.03 }
+      { "categoryKey": "rogers_redemption_value", "effectiveRate": 0.03 },
+      { "categoryKey": "other", "effectiveRate": 0.02 }
     ]
   },
   {
@@ -268,7 +295,8 @@
     "baseRewardRate": 0.02,
     "categoryMultipliers": [
       { "categoryKey": "us_purchases", "effectiveRate": 0.03 },
-      { "categoryKey": "rogers_redemption_value", "effectiveRate": 0.03 }
+      { "categoryKey": "rogers_redemption_value", "effectiveRate": 0.03 },
+      { "categoryKey": "other", "effectiveRate": 0.02 }
     ]
   },
   {
@@ -279,7 +307,8 @@
     "categoryMultipliers": [
       { "categoryKey": "dining", "effectiveRate": 0.04 },
       { "categoryKey": "groceries", "effectiveRate": 0.015 },
-      { "categoryKey": "gas", "effectiveRate": 0.015 }
+      { "categoryKey": "gas", "effectiveRate": 0.015 },
+      { "categoryKey": "other", "effectiveRate": 0.005 }
     ]
   },
   {
@@ -290,7 +319,8 @@
     "categoryMultipliers": [
       { "categoryKey": "groceries", "effectiveRate": 0.02 },
       { "categoryKey": "gas", "effectiveRate": 0.02 },
-      { "categoryKey": "recurring", "effectiveRate": 0.02 }
+      { "categoryKey": "recurring", "effectiveRate": 0.02 },
+      { "categoryKey": "other", "effectiveRate": 0.005 }
     ]
   },
   {
@@ -299,7 +329,8 @@
     "issuer": "PC Financial",
     "baseRewardRate": 0.01,
     "categoryMultipliers": [
-      { "categoryKey": "groceries", "effectiveRate": 0.025 }
+      { "categoryKey": "groceries", "effectiveRate": 0.025 },
+      { "categoryKey": "other", "effectiveRate": 0.01 }
     ]
   }
 ]
