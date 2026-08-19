@@ -1,0 +1,41 @@
+name: Canadian Credit Card Sync Engine
+
+on:
+  schedule:
+    # Runs automatically every Sunday at 00:00 UTC
+    - cron: '0 0 * * 0'
+  workflow_dispatch: # Allows manual trigger anytime from GitHub UI
+
+jobs:
+  sync-catalog:
+    runs-on: ubuntu-latest
+    
+    # Grants workflow permission to write updated JSON back to repository
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 google-genai
+
+      - name: Execute Extraction Script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python sync_catalog.py
+
+      - name: Commit and Push Updated Catalog
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add cards_catalog.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-synced Canadian card market updates" && git push)
